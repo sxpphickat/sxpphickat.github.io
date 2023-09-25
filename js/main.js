@@ -26,7 +26,7 @@ function kaomoji() {
 
 function modify_h1() {
 	let element = document.getElementById("666");
-	element.innerHTML = "nothing here yet	" + kaomoji();
+	element.innerHTML = kaomoji();
 }
 
 modify_h1();
