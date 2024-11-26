@@ -16,6 +16,13 @@ body {
 	font-family: 'IBM PLEX MONO', sans-serif;
 }
 
+#btn {
+	color: white;	
+	background: none;
+	padding: 2px;
+	border-color: black;
+}
+
 .container {
 	display: flex;
 	justify-content: center;

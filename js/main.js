@@ -25,8 +25,10 @@ function kaomoji() {
 }
 
 function modify_h1() {
-	let element = document.getElementById("666");
+	const element = document.getElementById("666");
 	element.innerHTML = kaomoji();
 }
+
+document.getElementById('btn').addEventListener('click', () => modify_h1())
 
 modify_h1();
